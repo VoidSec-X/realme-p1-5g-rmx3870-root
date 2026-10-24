@@ -1,5 +1,10 @@
 <div align="center">
 
+<!-- Search Optimization Metadata Box -->
+<!-- Keywords: RMX3870 root, Realme P1 5G root, KernelSU RMX3870, DFRoot Android 16, Locked Bootloader Root, KernelSU LKM setup, Kernel 6.6.118-android15-8-o-g25c0665dd40c-4k, RMX3870_16.0.5.1200(EX01) -->
+<meta name="description" content="Independent community documentation for rooting the Realme P1 5G (RMX3870) on Android 16 using KernelSU LKM and DFRoot exploit with a locked bootloader.">
+<meta name="keywords" content="RMX3870 root, Realme P1 5G root, KernelSU RMX3870, DFRoot Android 16, Realme P1 jailbreak, RMX3870 locked bootloader root">
+
 # Realme P1 5G · RMX3870
 ### Android 16 Rooting Notes — KernelSU + DFRoot
 
