@@ -1,0 +1,1 @@
+This repository contains original documentation and screenshots supplied by the maintainer. DFRoot and KernelSU are third-party projects; their code and binaries are not included. Review each upstream project's license before redistributing its software.
