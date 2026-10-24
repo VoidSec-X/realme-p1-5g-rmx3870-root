@@ -1,0 +1,59 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Realme P1 5G RMX3870</title>
+  <desc id="desc">Android 16, KernelSU LKM and DFRoot community documentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07151b"/>
+      <stop offset="55%" stop-color="#102b32"/>
+      <stop offset="100%" stop-color="#09121d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5a0"/>
+      <stop offset="100%" stop-color="#25baff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#6bd8ce" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+
+  <g fill="none" stroke="#1ce6b0" stroke-opacity=".24" stroke-width="2">
+    <path d="M780 0V65H850V112H930"/>
+    <path d="M1200 80H1100V132H1015"/>
+    <path d="M1200 270H1080V228H990V192"/>
+    <path d="M830 360V300H910V268"/>
+    <circle cx="930" cy="112" r="5" fill="#1ce6b0"/>
+    <circle cx="1015" cy="132" r="5" fill="#1ce6b0"/>
+    <circle cx="990" cy="192" r="5" fill="#1ce6b0"/>
+    <circle cx="910" cy="268" r="5" fill="#1ce6b0"/>
+  </g>
+
+  <rect x="54" y="47" width="7" height="266" rx="3.5" fill="url(#accent)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="84" y="77" fill="#53e7c1" font-size="15" font-weight="700" letter-spacing="4">DEVICE RESEARCH / ANDROID</text>
+
+    <text x="80" y="145" fill="#f3fbff" font-size="48" font-weight="700">REALME P1 5G</text>
+    <text x="83" y="190" fill="#a9c8d3" font-size="28" font-weight="500">RMX3870</text>
+
+    <rect x="82" y="216" width="210" height="37" rx="18.5" fill="#103d37" stroke="#1ce6b0" stroke-opacity=".75"/>
+    <text x="187" y="240" fill="#7fffe0" font-size="15" font-weight="700" text-anchor="middle">ANDROID 16</text>
+
+    <text x="83" y="289" fill="#c0d8e0" font-size="17">KernelSU LKM  /  DFRoot  /  Community Notes</text>
+
+    <g transform="translate(914 164)">
+      <rect x="-62" y="-91" width="124" height="184" rx="22" fill="#07131a" stroke="#36e6c0" stroke-width="2"/>
+      <rect x="-51" y="-72" width="102" height="143" rx="12" fill="#10252e"/>
+      <rect x="-14" y="-82" width="28" height="4" rx="2" fill="#6fabb2"/>
+      <circle cx="0" cy="18" r="34" fill="#103d37" stroke="#27e6b3" stroke-width="2"/>
+      <path d="M-17 18L-4 31L20 4" fill="none" stroke="#66ffd5" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M-28 48H28" stroke="#3e6873" stroke-width="3" stroke-linecap="round"/>
+      <path d="M-20 58H20" stroke="#3e6873" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <text x="1084" y="322" fill="#6e9ca7" font-size="12" text-anchor="end" letter-spacing="2">COMMUNITY PROJECT</text>
+  </g>
+</svg>
