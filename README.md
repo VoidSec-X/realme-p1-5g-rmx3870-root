@@ -90,7 +90,6 @@ The information describes the reported device configurations. Compatibility with
 
 ## Requirements
 
-- Realme P1 5G (`RMX3870`) or Realme Narzo 70 Pro 5G (`RMX3868`).
 - KernelSU or KernelSU Next.
 - DFRoot v4.7.
 
