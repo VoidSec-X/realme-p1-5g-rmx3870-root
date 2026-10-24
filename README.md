@@ -26,6 +26,7 @@ A documented root setup on **Realme P1 5G (RMX3870)** running **Android 16 / rea
 | realme UI | `7.0` |
 | Android security update | `1 August 2026` |
 | Kernel | `6.6.118-android15-8-o-g25c0665dd40c-4k` |
+| Bootloader status | 🔒 Locked |
 | Build fingerprint | `realme/RMX3870IN/RE5C86L1:16/BP2A.250605.015/U.R4T2.1111115_1430a0f:user/release-keys` |
 | KernelSU manager | `v3.3.1 (32680-5)` |
 | KernelSU status shown | `Working [Jailbreak mode]` |
