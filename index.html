@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0f14">
+<meta name="description" content="Community documentation for the Realme P1 5G RMX3870 running Android 16, with KernelSU and DFRoot.">
+<title>RMX3870 Rooting Notes · Realme P1 5G</title>
+<style>
+:root{color-scheme:dark;--bg:#0b0f14;--panel:#121923;--line:#263342;--text:#eef4fa;--muted:#a6b4c3;--green:#7de2b0;--blue:#9cb8ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#17352d 0,transparent 36%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}a{color:var(--green);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1080px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;color:var(--muted);font-size:.9rem}.brand{font-weight:800;color:var(--text);letter-spacing:.04em}.hero{padding:76px 0 58px}.eyebrow{color:var(--green);font-weight:750;text-transform:uppercase;letter-spacing:.15em;font-size:.76rem}.hero h1{font-size:clamp(2.6rem,7vw,5.4rem);line-height:1.02;letter-spacing:-.055em;margin:16px 0}.hero h1 span{color:var(--green)}.lead{max-width:720px;color:var(--muted);font-size:1.12rem}.chips{display:flex;gap:9px;flex-wrap:wrap;margin:24px 0}.chip{border:1px solid var(--line);background:#101821;padding:7px 12px;border-radius:999px;font-size:.85rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;padding:11px 16px;border-radius:11px;background:var(--green);color:#06120c;font-weight:800}.btn.secondary{background:transparent;border:1px solid var(--line);color:var(--text)}section{padding:35px 0}h2{font-size:1.8rem;letter-spacing:-.03em;margin:0 0 8px}.sub{color:var(--muted);margin:0 0 22px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{border:1px solid var(--line);border-radius:18px;padding:20px;background:linear-gradient(145deg,#151e29,#10151d)}.card h3{margin:0 0 7px}.card p{margin:0;color:var(--muted)}.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px}.table{width:100%;border-collapse:collapse;min-width:570px}.table th,.table td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--line);vertical-align:top}.table th{color:var(--muted);font-size:.84rem}.table tr:last-child td{border-bottom:0}code{overflow-wrap:anywhere;color:#d4e2ff}.gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.shot{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel)}.shot img{display:block;width:100%;height:auto}.shot figcaption{padding:12px;color:var(--muted);font-size:.9rem}.notice{border:1px solid #6a5931;background:#292316;color:#f3dfaa;border-radius:14px;padding:16px}.foot{border-top:1px solid var(--line);margin-top:42px;padding:28px 0 44px;color:var(--muted);font-size:.9rem}
+@media(max-width:760px){.grid,.gallery{grid-template-columns:1fr}.hero{padding-top:48px}.nav .navlinks{display:none}}
+</style>
+</head>
+<body>
+<header class="wrap nav"><a class="brand" href="#">RMX3870 / ROOT NOTES</a><div class="navlinks"><a href="#details">Device</a> &nbsp;·&nbsp; <a href="#proof">Screenshots</a> &nbsp;·&nbsp; <a href="#safety">Safety</a></div></header>
+<main>
+<section class="wrap hero">
+<div class="eyebrow">Independent community documentation</div>
+<h1>Realme P1 5G<br><span>Rooting Notes.</span></h1>
+<p class="lead">A device-specific record of the observed KernelSU + DFRoot setup on the Realme P1 5G (RMX3870), running Android 16 and realme UI 7.0.</p>
+<div class="chips"><span class="chip">Android 16</span><span class="chip">Security patch · 1 Aug 2026</span><span class="chip">KernelSU · LKM</span><span class="chip">RMX3870</span></div>
+<div class="actions"><a class="btn" href="https://github.com/diabl0w/DFRoot/releases/download/v4.7/DFRoot_4.7.apk" target="_blank" rel="noopener">DFRoot v4.7 source ↗</a><a class="btn secondary" href="README.md">Read the full guide</a><a class="btn secondary" href="https://github.com/new" target="_blank" rel="noopener">Create GitHub repo ↗</a></div>
+</section>
+<section class="wrap" id="details"><h2>Device details</h2><p class="sub">Values transcribed from the provided screenshots.</p>
+<div class="tablewrap"><table class="table"><tbody>
+<tr><th>Device / model</th><td>realme P1 5G · <code>RMX3870</code></td></tr>
+<tr><th>Firmware</th><td><code>RMX3870_16.0.5.1200(EX01)</code></td></tr>
+<tr><th>Android / UI</th><td>Android 16 · realme UI 7.0</td></tr>
+<tr><th>Security update</th><td>1 August 2026</td></tr>
+<tr><th>Kernel</th><td><code>6.6.118-android15-8-o-g25c0665dd40c-4k</code></td></tr>
+<tr><th>KernelSU manager</th><td><code>v3.3.1 (32680-5)</code></td></tr>
+<tr><th>Observed KernelSU state</th><td>Working · Jailbreak mode · LKM</td></tr>
+<tr><th>SELinux</th><td>Permissive (as shown in screenshot)</td></tr>
+</tbody></table></div>
+</section>
+<section class="wrap" id="proof"><h2>Proof & screenshots</h2><p class="sub">Keep the original screenshots in the <code>assets/</code> folder when uploading this page to GitHub.</p>
+<div class="gallery">
+<figure class="shot"><img src="assets/kernelsu-status.jpg" alt="KernelSU status on Realme P1 5G"><figcaption>KernelSU reports Working [Jailbreak mode], LKM.</figcaption></figure>
+<figure class="shot"><img src="assets/device-version.jpg" alt="Android 16 firmware details"><figcaption>Android 16 · realme UI 7.0 · August 2026 security update.</figcaption></figure>
+<figure class="shot"><img src="assets/dfroot.jpg" alt="DFRoot app"><figcaption>DFRoot app screen, version source linked above.</figcaption></figure>
+</div></section>
+<section class="wrap"><h2>Project links</h2><div class="grid">
+<article class="card"><h3>DFRoot</h3><p>Original v4.7 release APK. Review the upstream project and its terms before redistribution.</p><p style="margin-top:12px"><a href="https://github.com/diabl0w/DFRoot/releases/download/v4.7/DFRoot_4.7.apk" target="_blank" rel="noopener">Open source release ↗</a></p></article>
+<article class="card"><h3>KernelSU</h3><p>KernelSU is the root solution shown in the supplied screenshot.</p><p style="margin-top:12px"><a href="https://github.com/tiann/KernelSU" target="_blank" rel="noopener">Official project ↗</a></p></article>
+<article class="card"><h3>Contribute</h3><p>Share exact firmware details, reboot persistence, bugs, and recovery outcomes. One device's result is not universal compatibility.</p><p style="margin-top:12px"><a href="README.md">Contribution notes ↗</a></p></article>
+</div></section>
+<section class="wrap" id="safety"><h2>Read before modifying your phone</h2><div class="notice"><strong>Rooting carries risk.</strong> Back up your data and keep a recovery path for your exact firmware. Never flash images for a different model/build. SELinux is shown as Permissive in the evidence; that reduces security and is not recommended as a general-purpose setting. This is an independent project and is not affiliated with realme, DFRoot, or KernelSU.</div></section>
+</main>
+<footer class="wrap foot">Independent community documentation · Compatibility beyond the pictured device/build is unverified. · <a href="README.md">README</a></footer>
+</body></html>
