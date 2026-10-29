@@ -78,11 +78,11 @@ The information describes the reported device configurations. Compatibility with
 
 [KernelSU Next releases](https://github.com/KernelSU-Next/KernelSU-Next/releases)
 
-### DFRoot v4.7
+### DFRoot v6.0
 
-[![DFRoot](https://img.shields.io/badge/Download-DFRoot%20v4.7-00C896?style=for-the-badge&logo=android)](https://github.com/diabl0w/DFRoot/releases/download/v4.7/DFRoot_4.7.apk)
+[![DFRoot](https://img.shields.io/badge/Download-DFRoot%20v4.7-00C896?style=for-the-badge&logo=android)](https:)
 
-[All DFRoot releases](https://github.com/diabl0w/DFRoot/releases)
+[All DFRoot releases](https://github.com/VoidSec-X/realme-p1-5g-rmx3870-root/releases/download/Dfroot/DFRoot_6.0.apk)
 
 </div>
 
