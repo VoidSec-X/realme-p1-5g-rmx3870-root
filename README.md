@@ -91,7 +91,7 @@ The information describes the reported device configurations. Compatibility with
 ## Requirements
 
 - KernelSU or KernelSU Next.
-- DFRoot v4.7.
+- DFRoot v6.0.
 
 ## Step-by-Step Usage
 
